@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>后盾人人人做后盾0</p>
+<p class="ls">后盾人人人做后盾1</p>
+<p class="ls">后盾人人人做后盾2</p>
+<p class="ls">后盾人人人做后盾3</p>
+<p class="ls">后盾人人人做后盾4</p>
+<p name="hd">后盾人人人做后盾5</p>
+<p name="hd">后盾人人人做后盾6</p>
+<p>后盾人人人做后盾7</p>
+<script>
+    window.onload=function(){
+        document.getElementsByClassName('ls')[0].style.color='red'
+        var hd=document.getElementsByName('hd')
+        for(var i=0;i<hd.length;i++){
+            hd[i].style.color='red'
+        }
+        var ps=document.getElementsByTagName('p')
+    }
+</script>
+</body>
+</html>
